@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <main class="container">
+    <div class="box1">
+      <div class="box1-chd1">
+        <img src="./images/image-jeremy.png" alt="image-jeremy">
+        <div>
+          <p>Report for</p>
+          <h2>Jeremy Robson</h2>
+        </div>
+      </div>
+      <div class="box1-chd2">
+        <p onclick="daily()">Daily</p>
+        <p onclick="weekly()">Weekly</p>
+        <p class="margin-bottom" onclick="monthly()">Monthly</p>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="box2-chd1"></div>
+      <div class="box2-chd2">
+        <div class="header-box"> <p>Work</p><img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" id="ellipsis1" class="ellipsis"></div>
+        <div class="daily content-box" id="daily1">
+          <h1>5hrs</h1>
+          <small>Previous - 7hrs</small>
+        </div>
+        <div class="weekly content-box" id="weekly1">  
+          <h1>32hrs</h1>
+          <small>Previous - 36hrs</small>
+        </div>
+        <div class="monthly content-box" id="monthly1">
+          <h1>103hrs</h1>
+          <small>Previous - 128hrs</small>
+        </div>
+      </div>
+    </div>
+    <div class="box3">
+      <div class="box3-chd1"></div>
+      <div class="box3-chd2">
+        <div class="header-box"> <p>Play</p><img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" id="ellipsis2" class="ellipsis"></div>
+        <div class="daily content-box" id="daily2">
+          <h1>1hr</h1>
+          <small>Previous - 2hrs</small>
+        </div>
+        <div class="weekly content-box" id="weekly2">  
+          <h1>10hrs</h1>
+          <small>Previous - 8hrs</small>
+        </div>
+        <div class="monthly content-box" id="monthly2">
+          <h1>23hrs</h1>
+          <small>Previous - 29hrs</small>
+        </div>
+      </div>
+    </div>
+    <div class="box4">
+      <div class="box4-chd1"></div>
+      <div class="box4-chd2">
+        <div class="header-box"> <p>Study</p><img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" id="ellipsis3" class="ellipsis"></div>
+        <div class="daily content-box" id="daily3">
+          <h1>0hrs</h1>
+          <small>Previous - 1hr</small>
+        </div>
+        <div class="weekly content-box" id="weekly3">  
+          <h1>4hrs</h1>
+          <small>Previous - 7hrs</small>
+        </div>
+        <div class="monthly content-box" id="monthly3">
+          <h1>13hrs</h1>
+          <small>Previous - 19hrs</small>
+        </div>
+      </div>
+    </div>
+    <div class="box5">
+      <div class="box5-chd1"></div>
+      <div class="box5-chd2">
+        <div class="header-box"> <p>Exercise</p><img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" id="ellipsis4" class="ellipsis"></div>
+        <div class="daily content-box" id="daily4">
+          <h1>1hr</h1>
+          <small>Previous - 1hr</small>
+        </div>
+        <div class= "weekly content-box" id="weekly4">  
+          <h1>4hrs</h1>
+          <small>Previous - 5hrs</small>
+        </div>
+        <div class="monthly content-box" id="monthly4">
+          <h1>11hrs</h1>
+          <small>Previous - 18hrs</small>
+        </div>
+      </div>
+    </div>
+    <div class="box6">
+      <div class="box6-chd1"></div>
+      <div class="box6-chd2">
+        <div class="header-box"> <p>Social</p><img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" id="ellipsis5" class="ellipsis"></div>
+        <div class="daily content-box" id="daily5">
+          <h1>1hr</h1>
+          <small>Previous - 3hrs</small>
+        </div>
+        <div class="weekly content-box" id="weekly5">  
+          <h1>5hrs</h1>
+          <small>Previous - 10hrs</small>
+        </div>
+        <div class="monthly content-box" id="monthly5">
+          <h1>21hrs</h1>
+          <small>Previous - 23hrs</small>
+        </div>
+      </div>
+    </div>
+    <div class="box7">
+      <div class="box7-chd1"></div>
+      <div class="box7-chd2">
+        <div class="header-box"> <p>Self Care</p><img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" id="ellipsis6" class="ellipsis"></div>
+        <div class="daily content-box" id="daily6">
+          <h1>0hrs</h1>
+          <small>Previous - 1hr</small>
+        </div>
+        <div class="weekly content-box" id="weekly6">  
+          <h1>2hrs</h1>
+          <small>Previous - 2hrs</small>
+        </div>
+        <div class="monthly content-box" id="monthly6">
+          <h1>7hrs</h1>
+          <small>Previous - 11hrs</small>
+        </div>
+      </div>
+    </div>
+  </main>
+ <script src="./script.js"></script>
+</body>
+</html>
